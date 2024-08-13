@@ -849,9 +849,14 @@ h3.my-profession
         flex: 0 0 100%;
         max-width: 100%;
     }
+}
+@media (max-width: 695px)
+{
+    .aside .img2,
+    .aside .img,
     .home .audio,
     .home .gif
     {
-        display:  none;
+        display: none;
     }
 }
